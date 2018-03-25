@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_padding"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvSymbol"
+        tools:text="XRP"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvName"
+        tools:text="Ripple"
+        android:textSize="16sp"
+        android:layout_marginStart="@dimen/default_padding_half"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPriceChange"
+        tools:text="+10%"
+        android:textSize="16sp"
+        android:layout_marginStart="@dimen/default_padding_half"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPrice"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="$100"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
